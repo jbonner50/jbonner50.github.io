@@ -54,3 +54,9 @@ topics:
   - name: Flutter
     web_url: https://flutter.dev
     image_url: https://raw.githubusercontent.com/jbonner50/jbonner50.github.io/master/assets/logo_flutter_1080px_clr.png
+  - name: Python
+    web_url: https://www.python.org
+    image_url: https://raw.githubusercontent.com/jbonner50/jbonner50.github.io/master/assets/1024px-Python-logo-notext.png
+  - name: Raspberry Pi
+    web_url: https://www.raspberrypi.org
+    image_url: https://raw.githubusercontent.com/jbonner50/jbonner50.github.io/master/assets/Raspi-PGB001.png
