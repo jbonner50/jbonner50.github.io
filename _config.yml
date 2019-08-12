@@ -15,24 +15,52 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      
+
 resume:
   education:
-    - organization: Duke University
-      position: Computer Science
-      date: Class of 2022
-      location: Durham, NC
+    - organization: The Ohio State University
+      position: Computer Science & Engineering
+      date: Class of 2023
+      location: Columbus, Ohio
 
-projects:
-  featured:
-    - jbonner50/python-project-collection
-    - jbonner50/python-data-vis-tutorial
-    - jbonner50/hello-world
-  exclude:
-    archived: true
-    forks: true
-    projects:
-    # - repo-name
+      description:
+        text: Honors Student          
+
+    - organization: Wyoming High School
+      position: ""
+      date: Class of 2019
+      location: Cincinnati, OH
+
+      description:
+        points:
+          - 5.145 GPA
+          - 36 ACT
+          - 'Clubs: INTERalliance Chapter, Student Council'
+          - 'Sports: Varsity Golf, Varsity Bowling'
+
+  experience:
+  
+    - organization: GE Aviation
+      position: INTERalliance Digital Technology Intern (Software Engineer - Customer Portals)
+      date: Summer 2019
+      location: Cincinnati, OH
+      
+      description:
+        points:
+          - test
+          - test2
+  
+    - organization: GE Aviation
+      position: INTERalliance Digital Technology Intern (Data Engineer - DaaSBoard)
+      date: Summer 2018
+      location: Cincinnati, OH
+
+      description:
+        points:
+          - test
+          - test2
+
+    
 
 social_media:
   # behance: your_username
