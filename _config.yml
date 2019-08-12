@@ -15,13 +15,19 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+      
+resume:
+  education:
+    - organization: Duke University
+      position: Computer Science
+      date: Class of 2022
+      location: Durham, NC
 
 projects:
-  sort_by: pushed
-  # sort_by options:
-  #   - pushed
-  #   - stars
-  limit: 9
+  featured:
+    - jbonner50/python-project-collection
+    - jbonner50/python-data-vis-tutorial
+    - jbonner50/hello-world
   exclude:
     archived: true
     forks: true
