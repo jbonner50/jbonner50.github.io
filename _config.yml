@@ -28,14 +28,14 @@ projects:
     projects:
     # - repo-name
 
-# social_media:
+social_media:
   # behance: your_username
   # dribbble: your_username
   # facebook: your_username
   # hackerrank: your_username
-  # instagram: your_username
+  instagram: jbonner_50
   # keybase: your_username
-  # linkedin: your_username
+  linkedin: jeff-bonner-37b8b5167
   # mastodon: your_username
   # medium: your_username
   # stackoverflow: your_user_id
@@ -44,7 +44,8 @@ projects:
   # unsplash: your_username
   # vk: your_username
   # website: http://your_website_url
-  # youtube: your_username
+  youtube: channel/UCWUGc092GG4i0I-rr6gmJcg
+  email: jbonner50@gmail.com
 
 topics:
   - name: CSS
