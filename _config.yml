@@ -50,7 +50,7 @@ social_media:
 topics:
   - name: Dart
     web_url: https://dart.dev
-    image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Dart_programming_language_logo.svg/440px-Dart_programming_language_logo.svg.png
+    image_url: https://raw.githubusercontent.com/jbonner50/jbonner50.github.io/master/assets/logo_dart_1080px_clr.png
   - name: Flutter
     web_url: https://flutter.dev
-    image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Google-flutter-logo.png/240px-Google-flutter-logo.png
+    image_url: https://raw.githubusercontent.com/jbonner50/jbonner50.github.io/master/assets/logo_flutter_1080px_clr.png
