@@ -9,11 +9,11 @@
     </div>
 
     <div class="my-6">
-      {% include projects.html %}
+      {% include resume.html %}
     </div>
 
     <div class="my-6">
-      {% include resume.html %}
+      {% include projects.html %}
     </div>
       
     {% if site.topics %}
@@ -42,8 +42,10 @@
           </div>
         {% endunless %}
 
-        {% include projects.html %}
+        {% include resume.html %}
 
+        {% include projects.html %}
+        
         {% if site.topics %}
           {% include interests.html %}
         {% endif %}

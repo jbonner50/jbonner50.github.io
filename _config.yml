@@ -16,6 +16,18 @@ defaults:
     values:
       layout: "post"
 
+projects:
+  sort_by: pushed
+  # sort_by options:
+  #   - pushed
+  #   - stars
+  limit: 3
+  exclude:
+    archived: true
+    forks: true
+    projects:
+    # - repo-name
+
 resume:
   education:
     - organization: The Ohio State University
