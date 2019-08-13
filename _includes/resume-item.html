@@ -2,10 +2,12 @@
     <div class="header">
         <div class="title">
             <span class="organization">{{ item.organization }}</span>
-            -
-            <span class="position">
-                {{ item.position }}
-            </span>
+            {% if item.position %}
+                -
+                <span class="position">
+                    {{ item.position }}
+                </span>
+            {% endif %}
         </div>
 
         <div class="subtitle">
