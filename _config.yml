@@ -89,8 +89,9 @@ social_media:
   # unsplash: your_username
   # vk: your_username
   # website: http://your_website_url
-  youtube: channel/UCWUGc092GG4i0I-rr6gmJcg
+  youtube: randomrand
   email: jbonner50@gmail.com
+  resume: jeffbonner-resume
 
 topics:
   - name: Dart

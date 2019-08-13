@@ -83,10 +83,15 @@ website:
 
 youtube:
   name: YouTube
-  profile_url_prefix: https://www.youtube.com/
+  profile_url_prefix: http://tiny.cc/
   icon_svg: '<svg height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.17 13.6"><path d="M18.77 2.13A2.4 2.4 0 0 0 17.09.42C15.59 0 9.58 0 9.58 0a57.55 57.55 0 0 0-7.5.4A2.49 2.49 0 0 0 .39 2.13 26.27 26.27 0 0 0 0 6.8a26.15 26.15 0 0 0 .39 4.67 2.43 2.43 0 0 0 1.69 1.71c1.52.42 7.5.42 7.5.42a57.69 57.69 0 0 0 7.51-.4 2.4 2.4 0 0 0 1.68-1.71 25.63 25.63 0 0 0 .4-4.67 24 24 0 0 0-.4-4.69zM7.67 9.71V3.89l5 2.91z" fill="#ff0000"/></svg>'
 
 email:
   name: Email
   profile_url_prefix: 'mailto:'
-  icon_svg: <svg height="20" class="octicon octicon-mail mr-2 v-align-middle" fill="#ff0000" aria-label="email" viewBox="0 2 14 16" version="1.1" width="17" role="img"><path fill-rule="evenodd" d="M0 4v8c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V4c0-.55-.45-1-1-1H1c-.55 0-1 .45-1 1zm13 0L7 9 1 4h12zM1 5.5l4 3-4 3v-6zM2 12l3.5-3L7 10.5 8.5 9l3.5 3H2zm11-.5l-4-3 4-3v6z"/></svg>
+  icon_svg: <svg height="20" class="octicon octicon-mail" viewBox="2.5 3 8.5 10.5" version="1.1" width="27.2" aria-hidden="true"><path fill-rule="evenodd" d="M0 4v8c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V4c0-.55-.45-1-1-1H1c-.55 0-1 .45-1 1zm13 0L7 9 1 4h12zM1 5.5l4 3-4 3v-6zM2 12l3.5-3L7 10.5 8.5 9l3.5 3H2zm11-.5l-4-3 4-3v6z" fill="#ff0000"></path></svg>
+  
+resume:
+  name: Resume
+  profile_url_prefix: http://tiny.cc/
+  icon_svg: <svg height="20" class="octicon octicon-file" viewBox="0 1 11 15" version="1.1" width="17.5" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"  fill="#ff0000"></path></svg>
