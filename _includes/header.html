@@ -33,9 +33,12 @@
   <script>
     function copy() {
       navigator.clipboard.writeText("{{ site.social_media.email }}")
-      var x = document.getElementById("toast");
-      x.className = "show mt-3";
-      setTimeout(function(){ x.className = x.className.replace("show mt-3", "mt-3"); }, 3000);
+      var x = document.getElementById("email");
+      x.setAttribute("aria-Label", "Copied!");
+    }
+    function resetAria() {
+      var x = document.getElementById("email");
+      x.setAttribute("aria-Label", "Copy '{{ site.social_media.email }}'");
     }
   </script>
 </head>
