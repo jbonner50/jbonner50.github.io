@@ -34,8 +34,8 @@
     function copy() {
       navigator.clipboard.writeText("{{ site.social_media.email }}")
       var x = document.getElementById("toast");
-      x.className = "show";
-      setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+      x.className = "show mt-3";
+      setTimeout(function(){ x.className = x.className.replace("show mt-3", "mt-3"); }, 3000);
     }
   </script>
 </head>
