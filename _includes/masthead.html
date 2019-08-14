@@ -42,16 +42,16 @@
               {% assign service = site.data.social_media[service_shortname] %}
 
               <a id="{{ service_shortname }}" class="tooltipped tooltipped-se"
-              {% if service_shortname == 'email' %}aria-label="Copy Email Address" href="javascript:void(0)"
+              {% if service_shortname == 'email' %}aria-label="Copy '{{ account[1] }}'" href="javascript:void(0)"
               {% elsif service_shortname == 'resume' %}aria-label="Resume" href="{{ service.profile_url_prefix }}{{ account[1] }}" target="_blank"
               {% else %}href="{{ service.profile_url_prefix }}{{ account[1] }}" target="_blank"{% endif %} aria-label="{{ service.name }}: {{ account[1] }}">
-              
               
               {{ service.icon_svg }}<span class="d-none">{{ service.name }}</span>
               </a>
             </div>
         {% endfor %}
       </div>
+      <div id="toast">Copied to clipboard</div>
     {% endif %}
     <script>
       document.querySelector("#email").addEventListener("click", copy);

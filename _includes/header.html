@@ -20,19 +20,25 @@
 
 <!doctype html>
 <html class="min-height-full">
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page_title }}</title>
-    <meta name="description" content="{{ meta_description }}" />
-    <meta property="og:title" content="{{ user.name }}" />
-    <meta property="og:image" content="{{ user.avatar_url }}" />
-    <meta property="og:description" content="{{ meta_description }}" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="{{ "/assets/styles.css" | relative_url }}" rel="stylesheet" type="text/css">
-    <script>
-      function copy() {
-        navigator.clipboard.writeText("{{ site.social_media.email }}")
-      }
-    </script>
-    </head>
-  <body class="bg-white min-height-full" {% if site.style == 'dark' %}style="background-color: #2f363d !important"{% endif %}>
+
+<head>
+  <meta charset="utf-8">
+  <title>{{ page_title }}</title>
+  <meta name="description" content="{{ meta_description }}" />
+  <meta property="og:title" content="{{ user.name }}" />
+  <meta property="og:image" content="{{ user.avatar_url }}" />
+  <meta property="og:description" content="{{ meta_description }}" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="{{ "/assets/styles.css" | relative_url }}" rel="stylesheet" type="text/css">
+  <script>
+    function copy() {
+      navigator.clipboard.writeText("{{ site.social_media.email }}")
+      var x = document.getElementById("toast");
+      x.className = "show";
+      setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+    }
+  </script>
+</head>
+
+<body class="bg-white min-height-full" {% if site.style == 'dark' %}style="background-color: #2f363d !important"
+{% endif %}>
