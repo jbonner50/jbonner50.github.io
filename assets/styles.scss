@@ -140,47 +140,48 @@ footer {
   -webkit-transition: opacity .25s ease-in-out;
 }
 
-/* --- Toast Copy --- */
-#toast {
-  visibility: hidden; /* Hidden by default. Visible on click */
-  border: 2px solid rgb(255, 0, 0); 
-  color: rgb(255, 255, 255); /* White text color */
-  //background-color: rgb(255, 0, 0);
-  text-align: center; /* Centered text */
-  border-radius: 18px; /* Rounded borders */
-  padding: 4px; /* Padding */
-  position: fixed; /* Sit on top of the screen */
-  z-index: 1; /* Add a z-index if needed */
-  //left: 93%; /* Center the snackbar */
-  //top: 15px; /* 30px from the bottom */
-  font-size: 11px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.3)
-}
 
-#toast.show {
-  visibility: visible;
-  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
-  animation: fadein 0.5s, fadeout 0.5s 2.5s;
-}
+// /* --- Toast Copy --- */
+// #toast {
+//   visibility: hidden; /* Hidden by default. Visible on click */
+//   border: 2px solid rgb(255, 0, 0); 
+//   color: rgb(255, 255, 255); /* White text color */
+//   //background-color: rgb(255, 0, 0);
+//   text-align: center; /* Centered text */
+//   border-radius: 18px; /* Rounded borders */
+//   padding: 4px; /* Padding */
+//   position: fixed; /* Sit on top of the screen */
+//   z-index: 1; /* Add a z-index if needed */
+//   //left: 93%; /* Center the snackbar */
+//   //top: 15px; /* 30px from the bottom */
+//   font-size: 11px;
+//   box-shadow: 0 5px 15px rgba(0,0,0,0.3)
+// }
 
-/* Animations to fade the toast in and out */
-@-webkit-keyframes fadein {
-  from {opacity: 0;} 
-  to {opacity: 1;}
-}
+// #toast.show {
+//   visibility: visible;
+//   -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+//   animation: fadein 0.5s, fadeout 0.5s 2.5s;
+// }
 
-@keyframes fadein {
-  from {opacity: 0;}
-  to {opacity: 1;}
-}
+// /* Animations to fade the toast in and out */
+// @-webkit-keyframes fadein {
+//   from {opacity: 0;} 
+//   to {opacity: 1;}
+// }
 
-@-webkit-keyframes fadeout {
-  from {opacity: 1;} 
-  to {opacity: 0;}
-}
+// @keyframes fadein {
+//   from {opacity: 0;}
+//   to {opacity: 1;}
+// }
 
-@keyframes fadeout {
-  from {opacity: 1;}
-  to {opacity: 0;}
-}
+// @-webkit-keyframes fadeout {
+//   from {opacity: 1;} 
+//   to {opacity: 0;}
+// }
 
+// @keyframes fadeout {
+//   from {opacity: 1;}
+//   to {opacity: 0;}
+// }
+// */
