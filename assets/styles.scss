@@ -11,6 +11,12 @@
 
 // === Resume === //
 
+//add red line under title
+h2{
+  border-bottom: 2px rgb(255, 0, 0) solid;
+
+}
+
 .item {
   margin-top: 10px;
   margin-bottom: 10px;

@@ -52,26 +52,58 @@ resume:
   experience:
   
     - organization: GE Aviation
-      position: INTERalliance Digital Technology Intern (Software Engineer - Customer Portals)
+      position: INTERalliance Digital Technology Intern (Software Engineer)
       date: Summer 2019
       location: Cincinnati, OH
       
-      description:
+      description: 
         points:
-          - test
-          - test2
+          - Updated backend service endpoint to assist migration from a Network File System to AWS S3 as part of organization initiatives to update legacy systems to improve performance and reliability by over 75%.
+          - Led curriculum development and organized a Python Dojo for GE Aviation's Development Chapter teaching over 50 developers Python language fundamentals and applications in enterprise data analytics.
+          - Utilized Java/Springboot and AWS native services while working in an Agile Scrum environment with two week sprints to quickly iterate and complete tasks
+
   
     - organization: GE Aviation
-      position: INTERalliance Digital Technology Intern (Data Engineer - DaaSBoard)
+      position: INTERalliance Digital Technology Intern (Data Engineer)
       date: Summer 2018
       location: Cincinnati, OH
 
-      description:
+      description: 
         points:
-          - test
-          - test2
+          - Produced daily customized SQL queries for high-level DaaSBoard success metrics on over 5000 table ingestion jobs per day and extracted recurrent failed tables for closer examination
+          - Orchestrated a front-end evaluation demo and hackathon, researching and testing the effectiveness over 15 data visualization tools to rejuvenate obsolete DaaSBoard visualizations and support Kafka data streaming
+          - Served as an Inclusion Committee member, assisting in the planning and budgeting of 5 intern events for 30+ interns and managing a budget of $10,000
 
-    
+    - organization: Cramer True Value Hardware
+      position: Sales Associate
+      date: Spring 2017 – Spring 2019
+      location: Cincinnati, OH
+
+      description: 
+        points:
+          - Collaborated with 3 to 4 associates to deliver high-quality customer service to 250 customers per shift, providing physical assistance with carrying and loading of items into their vehicle
+          - Operated checkout of 100 customers and over $2000 of transactions per shift, consistently providing each customer with personal attention and assistance
+          - Developed problem solving and communication skills through greeting entering customers, answering queries about different items, and guiding customers towards creative solutions
+
+
+    - organization: Wyoming Golf Club
+      position: Guest Services
+      date: Spring 2017 – Summer 2018
+      location: Cincinnati, OH
+
+      description: 
+        points:
+          - Prepared and cleared golf carts and clubs, managed ball supply & cleared driving range daily, and catered to over 500 members’ requests
+          - Managed concessions stand for golf course and pool
+
+    - organization: Tri-County Press Newspaper
+      position: Newspaper Carrier
+      date: Spring 2014 - Winter 2017
+      location: Cincinnati, OH
+
+      description: 
+        points:
+          - Coordinated weekly paper delivery,  monthly collections, and reporting
 
 social_media:
   # behance: your_username
