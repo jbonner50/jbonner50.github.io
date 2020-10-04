@@ -10,9 +10,19 @@
 
 <div class="section mb-4">
 
-  <h2 {% if site.style == 'dark' %}class="text-white"{% endif %}>Experience</h2>
+  <h2 {% if site.style == 'dark' %}class="text-white"{% endif %}>Work Experience</h2>
 
   {% for item in site.resume.experience %}
+    {% include resume-item.html %}
+  {% endfor %}
+
+</div>
+
+<div class="section mb-4">
+
+  <h2 {% if site.style == 'dark' %}class="text-white"{% endif %}>Involvement</h2>
+
+  {% for item in site.resume.involvement %}
     {% include resume-item.html %}
   {% endfor %}
 

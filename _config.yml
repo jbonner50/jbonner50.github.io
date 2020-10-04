@@ -8,13 +8,13 @@ plugins:
 
 permalink: /:year/:month/:day/:title/
 
-defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-      type: "posts"
-    values:
-      layout: "post"
+# defaults:
+#   -
+#     scope:
+#       path: "" # an empty string here means all files in the project
+#       type: "posts"
+#     values:
+#       layout: "post"
 
 projects:
   sort_by: pushed
@@ -36,30 +36,39 @@ resume:
       location: Columbus, Ohio
 
       description:
-        points: 
-          - 'GPA: 4.0 / 4.0'
+        points:
+          - "GPA: 4.0 / 4.0"
           - Honors Student in Engineering House Learning Community
 
   experience:
-  
+    - organization: OSU Department of Engineering Education
+      position: Undergraduate Teaching Assistant
+      date: August 2020 - Present
+      location: Cincinnati, OH
+
+      description:
+        points:
+          - Collaborated with the professor, graduate teaching assistant, and other undergraduate teaching assistants to effectively deliver the Fundamentals of Engineering curriculum to first-year engineering students
+          - Carefully graded assignments and provided clear and concise feedback for over 70 students
+          - Provided assistance and guidance to students during lecture and lab sessions
+
     - organization: GE Aviation
       position: INTERalliance Digital Technology Intern (Software Engineer)
       date: Summer 2019
       location: Cincinnati, OH
-      
-      description: 
+
+      description:
         points:
-          - Updated backend service endpoint to assist migration from a Network File System to AWS S3 as part of organization initiatives to update legacy systems to improve performance and reliability by over 75%.
+          - Updated backend service endpoints to assist migration from a Network File System to AWS S3 as part of organization initiatives to update legacy systems to improve performance and reliability by over 75%.
           - Led curriculum development and organized a Python Dojo for GE Aviation's Development Chapter teaching over 50 developers Python language fundamentals and applications in enterprise data analytics.
           - Utilized Java/Springboot and AWS native services while working in an Agile Scrum environment with two week sprints to quickly iterate and complete tasks
 
-  
     - organization: GE Aviation
       position: INTERalliance Digital Technology Intern (Data Engineer)
       date: Summer 2018
       location: Cincinnati, OH
 
-      description: 
+      description:
         points:
           - Produced daily customized SQL queries for high-level DaaSBoard success metrics on over 5000 table ingestion jobs per day and extracted recurrent failed tables for closer examination
           - Orchestrated a front-end evaluation demo and hackathon, researching and testing the effectiveness over 15 data visualization tools to rejuvenate obsolete DaaSBoard visualizations and support Kafka data streaming
@@ -70,19 +79,18 @@ resume:
       date: Spring 2017 – Spring 2019
       location: Cincinnati, OH
 
-      description: 
+      description:
         points:
           - Collaborated with 3 to 4 associates to deliver high-quality customer service to 250 customers per shift, providing physical assistance with carrying and loading of items into their vehicle
           - Operated checkout of 100 customers and over $2000 of transactions per shift, consistently providing each customer with personal attention and assistance
           - Developed problem solving and communication skills through greeting entering customers, answering queries about different items, and guiding customers towards creative solutions
-
 
     - organization: Wyoming Golf Club
       position: Guest Services Staff
       date: Spring 2017 – Summer 2018
       location: Cincinnati, OH
 
-      description: 
+      description:
         points:
           - Cleaned and handled over 500 member's golf bags and return to storage after golf round
           - Increased customer satisfaction by serving the golfers food, water, and towels and restocking the driving range golf ball supply
@@ -95,12 +103,51 @@ resume:
       date: Spring 2014 - Winter 2017
       location: Cincinnati, OH
 
-      description: 
+      description:
         points:
           - Coordinated weekly paper delivery to over 35 clients
           - Established stong customer service by delivering each paper directly to the porch
           - Organized monthly collections to ensure that each customer had paid for their subscription
           - Led promotional campaigns to gain new subscribers and increase monthly revenue
+
+  involvement:
+    - organization: Student Alumni Council
+      position: Visual Imaging Project Coordinator
+      date: August 2019 - Present
+      location: Columbus, OH
+      description:
+        points:
+          - Planned and created promotional videos to increase participation and awareness of other SAC events
+          - Volunteered at different committee programs to provide ample assistance and ensure a smooth execution
+          - Maintained and updated the membership and scholarship application grading website
+          - Developed website to digitize "Hero Book" entries from the past decade
+
+    - organization: Ohio Union Activities Board
+      position: Visual & Fine Arts Committee
+      date: August 2020 - Present
+      location: Columbus, OH
+      description:
+        points:
+          - Provided inclusive and representative events for the student body that highlight art, film, and other creative mediums
+          - Collaborated with other committee members to brainstorm and create event proposals
+
+    - organization: Game Creation Club
+      position: Member
+      date: August 2020 - Present
+      location: Columbus, OH
+      description:
+        points:
+          - Participated in game jams to improve my skills with C# scripting and the Unity development environment
+          - Worked with 5-6 other coders, musicians, artists, and writers to develop unique and original games
+
+    - organization: Boy Scouts of America
+      position: Eagle Scout
+      date: March 2009 - April 2019
+      location: Columbus, OH
+      description:
+        points:
+          - Cultivated a safe environment as Senior Patrol Leader, organizing and facilitating large group discussions
+          - Executed and managed multi-weekend service project with volunteer recruitment and tool donations
 
 social_media:
   # behance: your_username
@@ -122,16 +169,17 @@ social_media:
   email: jbonner50@gmail.com
   resume: jeffbonner-resume
 
-topics:
-  - name: Dart
-    web_url: https://dart.dev
-    image_url: https://raw.githubusercontent.com/jbonner50/jbonner50.github.io/master/assets/logo_dart_1080px_clr.png
-  - name: Flutter
-    web_url: https://flutter.dev
-    image_url: https://raw.githubusercontent.com/jbonner50/jbonner50.github.io/master/assets/logo_flutter_1080px_clr.png
-  - name: Python
-    web_url: https://www.python.org
-    image_url: https://raw.githubusercontent.com/jbonner50/jbonner50.github.io/master/assets/1024px-Python-logo-notext.png
-  - name: Raspberry Pi
-    web_url: https://www.raspberrypi.org
-    image_url: https://raw.githubusercontent.com/jbonner50/jbonner50.github.io/master/assets/Raspi-PGB001.png
+skills:
+#   - name: Java
+#   - name: Dart
+#     web_url: https://dart.dev
+#     image_url: https://raw.githubusercontent.com/jbonner50/jbonner50.github.io/master/assets/logo_dart_1080px_clr.png
+#   - name: Flutter
+#     web_url: https://flutter.dev
+#     image_url: https://raw.githubusercontent.com/jbonner50/jbonner50.github.io/master/assets/logo_flutter_1080px_clr.png
+#   - name: Python
+#     web_url: https://www.python.org
+#     image_url: https://raw.githubusercontent.com/jbonner50/jbonner50.github.io/master/assets/1024px-Python-logo-notext.png
+#   - name: Unity
+#     web_url: https://unity.com/
+#     image_url: https://raw.githubusercontent.com/jbonner50/jbonner50.github.io/master/assets/unity-69.svg
