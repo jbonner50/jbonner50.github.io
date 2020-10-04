@@ -21,12 +21,12 @@ projects:
   # sort_by options:
   #   - pushed
   #   - stars
-  limit: 3
+  limit: 6
   exclude:
-    archived: true
-    forks: true
+    # archived: true
+    # forks: true
     projects:
-    # - repo-name
+      - rock-paper-scissors
 
 resume:
   education:
