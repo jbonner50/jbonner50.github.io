@@ -1,75 +1,69 @@
 ---
 ---
-@import url('https://unpkg.com/primer/build/build.css');
-@import 'highlight-syntax';
 
+@import url("https://unpkg.com/primer/build/build.css");
+@import "highlight-syntax";
 
 // If a user adds a custom font, this component will stop it from bleeding into GitHub components:
 .github-component {
-  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol !important;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important;
 }
 
 // === Resume === //
 
 //add red line under title
-h2{
+h2 {
   border-bottom: 2px rgb(255, 0, 0) solid;
-
 }
 
 .item {
   margin-top: 10px;
   margin-bottom: 10px;
 
+  .header {
+    margin-bottom: 10px;
 
-   .header {
-     margin-bottom: 10px;
-    
-     .title {
+    .title {
       color: rgb(39, 39, 39);
       font-size: 16px;
       //display: inline;
 
-       .organization {
+      .organization {
         font-weight: bold;
       }
-
     }
 
-     .subtitle {
+    .subtitle {
       color: rgb(83, 83, 83);
 
-       .date {
+      .date {
         //float: right;
         //display: inline;
         color: rgb(48, 48, 48);
       }
+    }
+  }
 
-     }
-
-   }
-
-   .description {
+  .description {
     .text {
       margin-bottom: 10px;
     }
 
-     .items {
+    .items {
       padding-left: 20px;
     }
   }
-
- } 
-
+}
 
 .repo-language-color {
-    filter: brightness(125%) !important;
-    border-radius: 50%;
-    display: inline-block;
-    height: 12px;
-    position: relative;
-    top: 2px;
-    width: 12px;
+  filter: brightness(125%) !important;
+  border-radius: 50%;
+  display: inline-block;
+  height: 12px;
+  position: relative;
+  top: 2px;
+  width: 12px;
 }
 
 .emoji {
@@ -79,7 +73,10 @@ h2{
 }
 
 .article {
-  h1, h2, h3, h4,
+  h1,
+  h2,
+  h3,
+  h4,
   .highlight {
     margin-bottom: 16px;
   }
@@ -91,12 +88,14 @@ h2{
     margin-bottom: 16px;
   }
 
-  ul, ol {
+  ul,
+  ol {
     padding-left: 32px;
     margin-bottom: 16px;
   }
 
-  li ul, li ol {
+  li ul,
+  li ol {
     padding-left: 16px;
     margin-bottom: 0px;
   }
@@ -114,8 +113,8 @@ footer {
     text-align: center;
     font-size: 12px;
     color: #ffffff;
-    
-    .link{
+
+    .link {
       color: #ff0000;
     }
   }
@@ -127,25 +126,24 @@ footer {
   height: 22px;
 }
 
-#icons:hover > div> a> svg {
-  opacity: 0.5;
-  transition: opacity .25s ease-in-out;
-  -moz-transition: opacity .25s ease-in-out;
-  -webkit-transition: opacity .25s ease-in-out;
+#icons:hover > div > a > svg {
+  opacity: 1;
+  transition: opacity 0.25s ease-in-out;
+  -moz-transition: opacity 0.25s ease-in-out;
+  -webkit-transition: opacity 0.25s ease-in-out;
 }
 
 #icons:hover > div > a > svg:hover {
-  opacity: 1.0;
-  transition: opacity .25s ease-in-out;
-  -moz-transition: opacity .25s ease-in-out;
-  -webkit-transition: opacity .25s ease-in-out;
+  opacity: 0.5;
+  transition: opacity 0.25s ease-in-out;
+  -moz-transition: opacity 0.25s ease-in-out;
+  -webkit-transition: opacity 0.25s ease-in-out;
 }
-
 
 // /* --- Toast Copy --- */
 // #toast {
 //   visibility: hidden; /* Hidden by default. Visible on click */
-//   border: 2px solid rgb(255, 0, 0); 
+//   border: 2px solid rgb(255, 0, 0);
 //   color: rgb(255, 255, 255); /* White text color */
 //   //background-color: rgb(255, 0, 0);
 //   text-align: center; /* Centered text */
@@ -167,7 +165,7 @@ footer {
 
 // /* Animations to fade the toast in and out */
 // @-webkit-keyframes fadein {
-//   from {opacity: 0;} 
+//   from {opacity: 0;}
 //   to {opacity: 1;}
 // }
 
@@ -177,7 +175,7 @@ footer {
 // }
 
 // @-webkit-keyframes fadeout {
-//   from {opacity: 1;} 
+//   from {opacity: 1;}
 //   to {opacity: 0;}
 // }
 

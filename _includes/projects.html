@@ -1,6 +1,6 @@
 <h2 {% if site.style == 'dark' %}class="text-white mb-2"{% endif %}>Recent Projects</h2>
 <!-- <p class="f4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">GitHub repositories I've enjoyed building recently.</p> -->
-<div class="d-sm-flex flex-wrap gutter-condensed mb-1 mt-">
+<div class="d-sm-flex flex-wrap gutter-condensed mb-3 mt-2">
   {% if site.projects.sort_by == 'stars' %}
     {% assign sort_order = 'stargazers_count', 'last' %}
   {% else %}
